@@ -51,7 +51,7 @@ const string = `/*
 }
 
 /*
-**我来组成眼球
+**我来组成眼珠子
 */
 .eye::before {
     content: "";
