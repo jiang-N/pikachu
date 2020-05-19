@@ -2,7 +2,7 @@ import string from './css.js'
 
 const player = {
     id: undefined,
-    time: 50,
+    time: 40,
     n: 0,
     demoString: '',
     ui: {
