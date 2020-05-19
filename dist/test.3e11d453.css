@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+*::after{
+  box-sizing: border-box;
+}
+*::before{
+  box-sizing: border-box;
+}
+*{
+  transition: all 0.3s;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#buttons {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#buttons>button {
+    margin-bottom: 10px;
+    padding: 4px 8px;;
+}
+#demo{
+  flex:1;
+  height: 50%;
+  padding: 10px;
+}
+#html{
+  flex: 1;
+  height: 50%;
+}
+#skin{
+  overflow: hidden;
+  height: 100%;
+}
+.wrapper{
+  width: 100%;
+  height: 165px;
+  position: relative;
+}
+.preview{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=/test.3e11d453.css.map */
